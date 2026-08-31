@@ -51,7 +51,6 @@ const (
 )
 
 func main() {
-
 	brokerEnv, err := config.GetEnvConfig("BROKER", broker.ValidateDefaultBackoffDelayMs)
 	if err != nil {
 		log.Fatal("cannot process environment variables with prefix BROKER", err)

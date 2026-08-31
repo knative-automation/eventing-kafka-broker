@@ -36,7 +36,6 @@ const (
 )
 
 func main() {
-
 	sharedmain.MainNamed(signals.NewContext(), component,
 
 		// KafkaSource controller
